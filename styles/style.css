@@ -9,10 +9,83 @@
   font-style: normal;
 }
 
+header{
+    background-image: url("../assets/Banner\ Image.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 0 auto;
+}
 .banner{
-    text-align: center;
+    height: 100vh;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    color: white;
+}
+.banner h1{
+    font-size: 60px;
+}
+.banner h4{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.sale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.banner h1{
+.sale h1{
     font-size: 40px;
+    color: red;
+}
+.sale .info{
+    margin: 30px 0;
+}
+.sale h5{
+    color: red;
+}
+.sale img{
+    width: 500px;
+}
+
+
+
+.party{
+    background-image: url("../assets/Vectorrr.png");
+    /* height: 50vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    width: 80%;
+    margin: 30px auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+.party img{
+    height: 320px;
+    width: 200px;
+}
+
+
+.party-info p{
+    margin: 20px 0;
+}
+
+.party-info a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.party-info, .party img{
+    margin: 0 60px;
 }
