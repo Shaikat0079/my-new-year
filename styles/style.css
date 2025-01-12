@@ -55,11 +55,9 @@ header{
     width: 500px;
 }
 
-
-
 .party{
     background-image: url("../assets/Vectorrr.png");
-    /* height: 50vh; */
+    background-size: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,13 +90,14 @@ header{
 
 .coming-soon{
     width: 80%;
-    margin: 30px auto;
+    margin: 50px auto;
     display: flex;
-    gap: 100px;
-    /* justify-content: center; */
+    gap: 150px;
     align-items: center;
 }
-
+.offer-info-one{
+    width: 50%;
+}
 .round{
     border: 10px solid red;
     border-radius: 50%;
@@ -138,7 +137,6 @@ header{
 .details{
     display: flex;
     flex-direction: column;
-    /* text-align: left; */
     align-items: start;
     gap: 20px;
 }
@@ -147,19 +145,29 @@ header{
     background-image: url("../assets/Rectangle\ 2.png");
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 80%;
     display: flex;
-    border-radius: 10px;
     gap: 80px;
-    width: 100%;
     justify-content: center;
-    /* box-sizing: contain; */
+}
+
+.image-one img{
+    height: 400px;
+    width: 450px;
+    padding-bottom: 70px;
 }
 
 .image-two img{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 
-.coming-soon{
+
+.holiday-details{
     width: 80%;
+    margin: 50px auto;
+}
+
+.holiday{
+    margin: 50px 0;
 }
