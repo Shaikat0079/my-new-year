@@ -89,3 +89,77 @@ header{
 .party-info, .party img{
     margin: 0 60px;
 }
+
+.coming-soon{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    gap: 100px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.round{
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.round img{
+    width: 200px;
+    height: 200px;
+}
+
+.offer-info-two img{
+    width: 100px;
+    height: 100px;
+}
+
+.portfolio{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px ;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+.products img{
+    width: 300px;
+    height: 350px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    /* text-align: left; */
+    align-items: start;
+    gap: 20px;
+}
+
+.sale-banner{
+    background-image: url("../assets/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    border-radius: 10px;
+    gap: 80px;
+    width: 100%;
+    justify-content: center;
+    /* box-sizing: contain; */
+}
+
+.image-two img{
+    width: 150px;
+    height: 150px;
+}
+
+.coming-soon{
+    width: 80%;
+}
